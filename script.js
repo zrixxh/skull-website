@@ -5,7 +5,7 @@ function sendMessage() {
     return;
   }
 
-  fetch("https://discord.com/api/webhooks/1378306303067422780/Inphf5n2aZ2y2r6ZAwY4QWcVfpCudlT2zQz5E6wUJ2ogwyIJvjlPANc4dSmc2dyln1OB", {
+  fetch("https://discord.com/api/webhooks/1378306773165015040/HCi0h2Sx6PgAnLO2T2O7m5IxNe6fWGmHWjoQ2qs0ZXfip5FhQab2SBMbdhJPef8ha6xi", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
@@ -22,4 +22,3 @@ function sendMessage() {
     }
   });
 }
-
